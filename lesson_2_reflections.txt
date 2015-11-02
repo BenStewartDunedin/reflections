@@ -10,4 +10,9 @@ By grouping files together you can commit a change that is implemented
 in several files
 It makes you think about the commit before starting, there should be less
 rework of commits because simple mistakes can be caught in the staging area.
+How can you use the staging area to make sure you have one commit per
+ logical change?
+You can use it as a pre-commit area, by using git diff you can check
+that only the changes associated with the change you want to commit
+will be added in this commit.
 
