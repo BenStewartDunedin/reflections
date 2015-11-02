@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug
+ that was introduced?
+Because the bug was a syntax error, and the previous version worked then 
+the fault must have been introduced by the current version.
+This allows you to focus on the changes and ignore the text that has not 
+changed.
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+You can quickly try ideas and revert if they were not successful.
+You can avoid waste, prevent someone from using and old file as a starting
+point. 
+Or you can intentionally use an old file as a starting point.
+What do you think are the pros and cons of manually choosing when to create
+ a commit, like you do in Git, vs having versions automatically saved,
+ like Google Docs does?
+By linking a commit to a feature change it should be easier to find where the
+bug was introduced. Also you can run automated tests over the new commit
+to validate that you haven't broken any other function with your change.
+Why do you think some version control systems, like Git, allow saving
+ multiple files in one commit, while others, like Google Docs, treat each
+ file separately?
+Google Docs is intended for stand alone documents that are complete in their
+own right, ie there are not interdependencies between the documents.
+Git is for building software. There are many interdependacies between the
+related files. Therefore you need to commit all of them together.
+How can you use the commands git log and git diff to view the history of
+ files?
+Use git log to see all the commits and git diff to look at the changes
+between two commits.
+How might using version control make you more confident to make changes that
+ could break something?
+You can be confident because the changes can be undone by reverting to an
+earlier version.
+Now that you have your workspace set up, what do you want to try using
+ Git for?
+I will use it to version control code, I am learning how to use Git
+because my workplace uses Git
+
