@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+An empty repository is created in your working directory.
+You need to do it because you need somewhere to send your commits.
+How is the staging area different from the working directory and the
+ repository?
+It's an intermediate step that lets you group files together before commiting
+them 
+What value do you think it offers?
+By grouping files together you can commit a change that is implemented 
+in several files
+It makes you think about the commit before starting, there should be less
+rework of commits because simple mistakes can be caught in the staging area.
+
