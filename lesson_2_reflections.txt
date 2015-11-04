@@ -24,3 +24,6 @@ Where you want to significantly refactor your code.
 How would branches help?
 By leaving the original branch alone you can try these ideas without
 risking your functioning code.
+How do the diagrams help you visualize the branch structure?
+By showing were the git trail branches and what commits are unreachable.
+
