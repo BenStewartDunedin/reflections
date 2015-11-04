@@ -15,4 +15,12 @@ How can you use the staging area to make sure you have one commit per
 You can use it as a pre-commit area, by using git diff you can check
 that only the changes associated with the change you want to commit
 will be added in this commit.
-
+What are some situations when branches would be helpful in keeping your
+ history organized?
+Where you wanted to try a new idea without breaking your functioning
+code.
+Where you wanted to implement a new feature that may not be wanted.
+Where you want to significantly refactor your code.
+How would branches help?
+By leaving the original branch alone you can try these ideas without
+risking your functioning code.
