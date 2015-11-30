@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+When you are colaborating with other people.
+When you are submitting work to a build or test server.
+For software reviews.
