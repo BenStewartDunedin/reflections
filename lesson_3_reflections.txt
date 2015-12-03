@@ -9,4 +9,10 @@ You might be working on a change locally that you don't want to push to
 the remote repository as it is not complete.
 You might be working in the same area of code as another developer, if they
 commit to the remote repository you don't want the commit affecting your work.
+Describe the differences between forks, clones, and branches. When would you
+ use one instead of another?
+You use fork to clone a repository that you don't have write access to.
+You use clone to duplicate a repository that you may want to commit to later.
+You use branch to work on a new feature or bug fix within your local
+repository.
 
