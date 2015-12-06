@@ -15,4 +15,8 @@ You use fork to clone a repository that you don't have write access to.
 You use clone to duplicate a repository that you may want to commit to later.
 You use branch to work on a new feature or bug fix within your local
 repository.
+What is the benefit of having a copy of the last known state of the remote
+ stored locally?
+It allows to to review and merge locally, this will need to happen eventually
+when you sync with the remote.
 
