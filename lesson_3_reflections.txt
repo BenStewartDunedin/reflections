@@ -19,4 +19,9 @@ What is the benefit of having a copy of the last known state of the remote
  stored locally?
 It allows to to review and merge locally, this will need to happen eventually
 when you sync with the remote.
-
+How would you collaborate without using Git or GitHub? What would be easier,
+ and what would be harder?
+You could pass email patch files around. It may be easier to develop on a
+computer that is not connected to the internet.
+It would be more difficult to keep the changes in sync, if there were many 
+contributors you would need to be very disiplined to avoid chaos.
