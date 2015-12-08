@@ -25,3 +25,10 @@ You could pass email patch files around. It may be easier to develop on a
 computer that is not connected to the internet.
 It would be more difficult to keep the changes in sync, if there were many 
 contributors you would need to be very disiplined to avoid chaos.
+When would you want to make changes in a separate branch rather than directly
+ in master?
+Say you wanted to work on a new feature leave the master functioning
+What benefits does each approach have?
+A branch can be abandoned if the change is not feasible.
+If people are working on different features they can be merged systematically
+
